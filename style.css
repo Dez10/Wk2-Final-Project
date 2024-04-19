@@ -198,6 +198,7 @@ NAV
     margin: 0 24px;
 }
 
+
 .nav__link--login:hover, .nav__link:hover {
     color: #6415ff;
     border-bottom: 2px solid #6415ff;
@@ -462,7 +463,9 @@ header {
     text-align: left;
   }
 
-  /* QUALITY */
+  /* 
+  QUALITY
+  */
 
 .quality__container {
     position: relative;
@@ -547,7 +550,9 @@ header {
     background-color: #410cac;
   }
   
-  /* STEPS */
+  /* 
+  STEPS 
+  */
   
   .steps__container {
     position: relative;
@@ -639,7 +644,9 @@ header {
     max-width: 320px;
   }
   
-  /* VALUES */
+  /* 
+  VALUES 
+  */
   
   .values__description--container {
     padding: 96px 0;
@@ -759,7 +766,9 @@ header {
     background-color: #410cac;
   }
   
-  /* PRICING */
+  /* 
+  PRICING 
+  */
   
   .pricing__container {
     padding: 96px 0;
@@ -980,7 +989,9 @@ header {
     transform: translate(2px, -2px);
   }
   
-  /* TESTIMONIAL */
+  /* 
+  TESTIMONIAL 
+  */
   
   .testimonial__container {
     padding: 96px 0;
@@ -1087,8 +1098,14 @@ header {
     flex-direction: column;
     margin-left: 24px;
   }
+
+  .slideshow__user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   
-  .slidehow__btns,
+  .slideshow__btns,
   .break {
     display: flex;
     justify-content: space-between;
@@ -1097,17 +1114,18 @@ header {
   
   .slideshow__cust {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     }
   
   .fa-arrow-left,
   .fa-arrow-right {
+    color: #6415ff;
     background-color: #edf2f7;
     border-radius: 50%;
     padding: 16px;
     margin: 0 12px;
-    color: #6415ff;
     height: 36px;
     width: 36px;
     display: flex;
@@ -1116,7 +1134,9 @@ header {
     text-align: center;
   }
   
-  /* FAQS */
+  /* 
+  FAQS 
+  */
   
   .FAQ__container {
     margin: 96px 0;
@@ -1390,6 +1410,7 @@ header {
   }
   
   /* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
+
   @media (max-width: 728px) {
     .row {
       flex-direction: column;
@@ -1399,7 +1420,9 @@ header {
       width: 50%;
     }
   
-    /* HEADER */
+    /* 
+    HEADER 
+    */
   
     .header__container {
       padding: 45px 0;
@@ -1447,7 +1470,9 @@ header {
       padding-bottom: 12px;
     }
   
-    /* FEATURES */
+    /* 
+    FEATURES 
+    */
   
     .features__container {
       padding: 45px 0;
@@ -1487,7 +1512,9 @@ header {
       flex-wrap: wrap;
     }
   
-    /* QUALITY */
+    /* 
+    QUALITY 
+    */
   
     .quality__row {
       max-width: 728px;
@@ -1517,7 +1544,9 @@ header {
       background-color: #410cac;
     }
   
-    /* STEPS */
+    /* 
+    STEPS 
+    */
   
     .steps__container {
       padding: 45px 0;
@@ -1548,7 +1577,9 @@ header {
       font-size: 16px;
     }
   
-    /* VALUES */
+    /* 
+    VALUES 
+    */
   
     .values__description--container {
       padding-top: 45px;
@@ -1595,7 +1626,9 @@ header {
       display: none;
     }
   
-    /* PRICING */
+    /* 
+    PRICING 
+    */
   
     .pricing__description {
       margin-top: 45px;
@@ -1617,7 +1650,9 @@ header {
       padding-left: 24px;
     }
   
-    /* TESTIMONIAL */
+    /* 
+    TESTIMONIAL 
+    */
   
     .testimonial__container {
       padding-top: 45px;
@@ -1657,19 +1692,23 @@ header {
       width: 72px;
     }
   
-    /* FAQS */
+    /* 
+    FAQS 
+    */
   
     .faqs__container {
       margin: 30px 0;
     }
   
-    /* STARTING */
+    /* 
+    SUBSCRIBE 
+    */
   
-    .starting__container {
+    .subscribe__container {
       padding: 45px 0;
     }
   
-    .starting__description {
+    .subscribe__description {
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -1682,11 +1721,11 @@ header {
       width: 50%;
     }
   
-    .starting__button--started {
+    .subscribe__btn--started {
       margin-bottom: 24px;
     }
   
-    .starting__button--container {
+    .subscribe__btn--container {
       display: flex;
       flex-direction: column;
     }
@@ -1699,6 +1738,7 @@ header {
   }
   
   /* SMALL PHONES */
+
   @media (max-width: 550px) {
     .nav__links {
       display: none;
@@ -1746,7 +1786,7 @@ header {
       padding-left: 6px;
     }
     .footer__copyright {
-      font-size: smaller;
+      font-size: 12px;
       text-align: center;
     }
   }
