@@ -1099,7 +1099,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
+    }
   
   .fa-arrow-left,
   .fa-arrow-right {
@@ -1108,7 +1108,6 @@ header {
     padding: 16px;
     margin: 0 12px;
     color: #6415ff;
-    display: flex;
     height: 36px;
     width: 36px;
     display: flex;
