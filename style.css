@@ -1110,6 +1110,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
   }
   
   .slideshow__cust {
@@ -1696,7 +1697,7 @@ header {
     FAQS 
     */
   
-    .faqs__container {
+    .FAQ__container {
       margin: 30px 0;
     }
   
@@ -1769,15 +1770,15 @@ header {
       margin-right: 60px;
     }
   
-    .faqs__description--title {
+    .FAQ__description--title {
       text-align: center;
     }
   
-    .faqs__collapsible {
+    .FAQ__collapse {
       font-size: 16px;
     }
   
-    .starting__button--container {
+    .subscribe__btn--container {
       margin-left: 24px;
       text-align: center;
     }
