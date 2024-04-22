@@ -11,8 +11,8 @@ html {
 }
 
 main {
-    padding: 32px;
     overflow-x: hidden;
+    padding: 32px;
 }
 
 h1 {
@@ -62,23 +62,24 @@ i {
 ANIMATION
  */
 
-#landing,
+ #landing,
 #quality,
 #values,
 #testimonial,
-#starting {
-  animation: left 900ms ease;
+#subscribe {
+ animation: right 900ms ease-in-out;
 }
 
 #features,
 #steps,
 #pricing,
-#faqs,
+#FAQS,
 #footer {
-  animation: right 900ms ease;
+  animation: left  900ms ease-in-out;
 }
 
-@keyframes left {
+
+@keyframes right {
   0% {
     opacity: 0;
     transform: translate(-100vw);
@@ -89,7 +90,7 @@ ANIMATION
   }
 }
 
-@keyframes right {
+@keyframes left {
   0% {
     opacity: 0;
     transform: translate(100vw);
@@ -234,8 +235,10 @@ NAV
 }
 
 .nav__logo--container {
+    font-size: 24px;
     display: flex;
     align-items: center;
+    justify-content: center;
     margin-right: 24px;
 }
 
@@ -243,7 +246,7 @@ NAV
     color: #243e62;
     font-size: 24px;
     font-weight: 900;
-    margin: 0 24px 0 0;
+    margin: 0 24px 0 0px;
     padding: 0 0 4px;
     letter-spacing: 0.4px;
 }
@@ -253,7 +256,6 @@ NAV
 }
 
 .logo__img {
-    height: 40px;
     width: 40px;
     margin-right: 12px;
 }
@@ -293,7 +295,8 @@ header {
 
 .header__img {
     width: 100%;
-    min-width: 768px;
+    max-width: 768px;
+    min-width: none;
 }
 
 .header__para {
@@ -778,6 +781,12 @@ header {
     display: flex;
     flex-direction: column;
   }
+
+  .pricing__wrapper {
+    border: 1px solid color(0, 0, 0, 0.1);
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+  }
   
   .pricing__description {
     display: flex;
@@ -824,8 +833,10 @@ header {
     margin-right: 32px;
     width: 100%;
     max-width: 384px;
-    box-shadow: 0 0 10px 1px #000000;
     border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-top-width: 2px;
+    border-bottom-width: 2px;
   }
   
   .pricing__plan--business {
@@ -833,8 +844,11 @@ header {
     margin-right: 32px;
     width: 100%;
     max-width: 384px;
-    box-shadow: 0 0 10px 1px #00000d;
     background-image: linear-gradient(135deg, #4c51bf 0%, #667eea 100%);
+    border-radius: 8px;
+    border: 1px solid rgba(52, 51, 51, 0.112);
+    border-top-width: 2px;
+    border-bottom-width: 2px;
   }
   
   .pricing__plan--enterprise {
@@ -842,24 +856,29 @@ header {
     margin-right: 32px;
     width: 100%;
     max-width: 384px;
-    box-shadow: 0 0 10px 1px #00000d;
     border-radius: 8px;
+    border: 1px solid rgba(52, 51, 51, 0.112);
+    border-top-width: 2px;
+    border-bottom-width: 2px;
   }
   
   .plan__border--personal {
     height: 8px;
     background: linear-gradient(115deg, #38b2ac 0%, #81e6d9 100%);
+    border-radius: 10px;
   }
   
   .plan__border--business {
     height: 8px;
     background-image: linear-gradient(135deg, #4c51bf 0%, #667eea 100%);
-  }
+    border-radius: 10px;
+    }
   
   .plan__border--enterprise {
     height: 8px;
     background: linear-gradient(115deg, #f56565 0%, #feb2b2 100%);
-  }
+    border-radius: 10px;
+    }
   
   .plan__options {
     display: flex;
@@ -1110,8 +1129,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-  }
+}
   
   .slideshow__cust {
     display: flex;
@@ -1214,11 +1232,12 @@ header {
   .subscribe__container {
     padding: 96px 0;
   }
-  
+
   .subscribe__row {
     width: 100%;
     margin: 0 auto;
     max-width: 1280px;
+    flex-direction: column;
   }
   
   .subscribe__description {
@@ -1411,24 +1430,27 @@ header {
   }
   
   /* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
+  
 
-  @media (max-width: 728px) {
+  @media (max-width: 900px) {
     .row {
       flex-direction: column;
     }
   
-    img {
+    .img {
       width: 50%;
     }
-  
+    } 
+    
+    
     /* 
     HEADER 
     */
-  
+    
     .header__container {
       padding: 45px 0;
     }
-  
+
     .header__description {
       width: 100%;
       max-width: 80%;
@@ -1518,7 +1540,7 @@ header {
     */
   
     .quality__row {
-      max-width: 728px;
+      max-width: 768px;
       width: 100%;
       padding: 45px 0;
     }
@@ -1736,11 +1758,11 @@ header {
     .footer__row {
       padding: 24px;
     }
-  }
+  
   
   /* SMALL PHONES */
 
-  @media (max-width: 550px) {
+  @media (max-width: 900px) {
     .nav__links {
       display: none;
     }
@@ -1750,13 +1772,13 @@ header {
       flex-direction: row;
     }
   
-    /* when under 550px nav__links disappear */
+    /* when under 576px nav__links disappear */
   
     .btn__menu {
       display: block;
     }
   
-    /* when under 550px burger button appears */
+    /* when under 900px burger button appears */
   
     .user__input {
       margin-left: 0;
