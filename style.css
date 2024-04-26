@@ -1048,13 +1048,11 @@ header {
     align-items: center;
   }
   
-  .slideshow__btns,
-  .break {
+  .slideshow__btns {
     display: flex;
     justify-content: center;
     align-items: center;
-
-  }
+ }
 
   .slideshow__cust {
     display: flex;
@@ -1074,7 +1072,7 @@ header {
     width: 36px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     text-align: center;
   }
   
@@ -1354,7 +1352,7 @@ header {
   }
   
   /* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
-  @media (max-width: 728px) {
+  @media (max-width: 1200px) {
     .row {
       flex-direction: column;
     }
@@ -1682,7 +1680,7 @@ header {
   }
   
   /* SMALL PHONES */
-  @media (max-width: 550px) {
+  @media (max-width: 1000px) {
     .nav__links {
       display: none;
     }
