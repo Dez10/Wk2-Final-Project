@@ -1358,6 +1358,10 @@ header {
     .quality__img,
     .steps__img,
     .values__img {
+        top: 0;
+        left:0;
+        transform: none;
+        border-radius: 0;
         width: 100%;
         height: auto;
     }
@@ -1365,7 +1369,7 @@ header {
     .quality__row,
     .steps__row,
     .values__description--container {
-        flex-direction: column;
+        flex-direction: column-reverse;
         align-items: center;
         text-align: center;
     }
