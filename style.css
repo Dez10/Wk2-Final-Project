@@ -1362,7 +1362,7 @@ img {
     height: auto;
 }
 .row, .header__row, .quality__row, .values__description--container, .steps__row {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
 }
 .header__img, .quality__img, .steps__img, .values__img {
@@ -1374,7 +1374,7 @@ img {
     margin: 0 auto;
 }
 .nav, .nav__links, .menu__links {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
 }
 .nav__link, .menu__link, .services__title {
