@@ -1353,7 +1353,7 @@ header {
   }
   
   /* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
-  @media (max-width: 1200px) {
+  @media (max-width: 768px) {
     .row {
       flex-direction: column;
     }
@@ -1465,7 +1465,7 @@ header {
     }
   
     .quality__img {
-      display: none;
+      display: auto;
     }
   
     .quality__description {
@@ -1495,7 +1495,7 @@ header {
     }
   
     .steps__img--wrapper {
-      display: none;
+      display: auto;
     }
   
     .steps__description {
@@ -1681,7 +1681,7 @@ header {
   }
   
   /* SMALL PHONES */
-  @media (max-width: 1000px) {
+  @media (max-width: 480px) {
     .nav__links {
       display: none;
     }
