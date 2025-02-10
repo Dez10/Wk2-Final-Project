@@ -1352,7 +1352,8 @@ header {
     justify-content: center;
   }
   
-/* Base Styles for Responsive Design */
+/* Base Styles for Responsive Design for small devices*/
+@media (max-width: 768px)
 * {
     box-sizing: border-box;
 }
