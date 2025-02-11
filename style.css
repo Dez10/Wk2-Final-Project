@@ -1178,6 +1178,9 @@ header {
   
   .subscribe__title {
     font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   .subscribe__btn--start {
