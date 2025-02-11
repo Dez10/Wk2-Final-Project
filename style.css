@@ -1152,7 +1152,12 @@ header {
   /* 
   SUBSCRIBE
    */
-  
+
+  .subscribe__btn--container {
+      display: flex;
+      flex-wrap: wrap;
+  }
+
   .subscribe__container {
     padding: 96px 0;
   }
@@ -1409,7 +1414,7 @@ header {
     align-items: center;
 }
 
- .subscribe__container {
+ .subscribe__container, .subscribe__btn--container {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1449,7 +1454,7 @@ header {
     flex-direction: column;
     align-items: center;
 }
-  .subscribe__container {
+  .subscribe__container, .subscribe__btn--container {
         display: flex;
         flex-direction: column;
         align-items: center;
