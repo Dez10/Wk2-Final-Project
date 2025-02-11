@@ -1180,7 +1180,7 @@ header {
     font-size: 30px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
   }
   
   .subscribe__btn--start {
