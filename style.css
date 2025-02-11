@@ -92,7 +92,7 @@ MENU
     text-align: center;
     border: none;
     color: black;
-    display: none;
+    display: block;
     cursor: pointer;
     width: 24px;
     height: 24px;
