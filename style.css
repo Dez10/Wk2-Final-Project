@@ -1357,7 +1357,7 @@ header {
   
 
 /* Media Queries for Responsive Design */
-@media (max-width: 768px) 
+@media (max-width: 768px) {
 
 .header__img, .quality__img, .steps__img, .values__img {
     width: 100%;
@@ -1405,7 +1405,7 @@ header {
         width: 100%;
         margin: 8px 0;
     }
-}
+
 .subscribe__description {
     display: flex;
     flex-direction: column;
