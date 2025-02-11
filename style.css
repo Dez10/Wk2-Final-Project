@@ -1190,6 +1190,7 @@ header {
     font-weight: 700;
     color: #f7fafc;
     letter-spacing: 0.8px;
+    flex-wrap: auto;
   }
   
   .subscribe__btn--start:hover {
@@ -1206,6 +1207,7 @@ header {
     font-weight: 700;
     color: #f7fafc;
     letter-spacing: 0.8px;
+    flex-wrap: auto;
   }
   
   .subscribe__btn--contact:hover {
