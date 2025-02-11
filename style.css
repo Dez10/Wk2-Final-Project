@@ -1399,7 +1399,7 @@ header {
         width: 100%;
         height: auto;
     }
-    .header__container, .quality__container, .steps__container, .values__description--container {
+    .header__container, .quality__container, .steps__container, .values__description--container, .pricing__options--container {
         flex-direction: column;
         align-items: center;
     }
@@ -1441,7 +1441,7 @@ header {
         width: 100%;
         height: auto;
     }
-    .header__container, .quality__container, .steps__container, .values__description--container {
+    .header__container, .quality__container, .steps__container, .values__description--container, .pricing__options--container {
         flex-direction: column;
         align-items: center;
     }
