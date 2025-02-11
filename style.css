@@ -1190,7 +1190,6 @@ header {
     font-weight: 700;
     color: #f7fafc;
     letter-spacing: 0.8px;
-    flex-wrap: auto;
   }
   
   .subscribe__btn--start:hover {
@@ -1207,7 +1206,6 @@ header {
     font-weight: 700;
     color: #f7fafc;
     letter-spacing: 0.8px;
-    flex-wrap: auto;
   }
   
   .subscribe__btn--contact:hover {
@@ -1406,6 +1404,17 @@ header {
     }
 }
 
+ .button-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .start-button, .contact-button {
+        width: 100%;
+        margin: 8px 0;
+    }
+}
+
 @media (max-width: 480px) {
     .header__title, .quality__title, .steps__title, .values__title {
         font-size: 20px;
@@ -1429,5 +1438,15 @@ header {
     .features__services {
         width: 100%;
         margin: 16px 0;
+    }
+}
+ .button-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .start-button, .contact-button {
+        width: 100%;
+        margin: 8px 0;
     }
 }
