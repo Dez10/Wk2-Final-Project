@@ -1412,12 +1412,12 @@ header {
     align-items: center;
 }
 
- .button-container {
+ .subscribe__container {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .start-button, .contact-button {
+    .subscribe__start--btn, .subscribe__contact--btn {
         width: 100%;
         margin: 8px 0;
     }
@@ -1452,12 +1452,12 @@ header {
     flex-direction: column;
     align-items: center;
 }
- .button-container {
+  .subscribe__container {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .start-button, .contact-button {
+  .subscribe__start--btn, .subscribe__contact--btn {
         width: 100%;
         margin: 8px 0;
     }
